@@ -43,6 +43,18 @@ video {
   vertical-align: middle;
 }
 
+.section {
+  background-color: var(--beige);
+  border: 1px solid black;
+  display: flex;
+  align-items: stretch;
+}
+
+.section .box {
+  background-color: var(--white);
+  border: var(--grey) solid 1px;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
