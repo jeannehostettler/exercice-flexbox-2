@@ -96,6 +96,15 @@ video {
   width: 49%;
 }
 
+.section-5 {
+  justify-content: end;
+}
+
+.section-5 .box {
+  width: 5%;
+  margin-right: 15px;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
