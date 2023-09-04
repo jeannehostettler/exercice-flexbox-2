@@ -47,12 +47,26 @@ video {
   background-color: var(--beige);
   border: 1px solid black;
   display: flex;
-  align-items: stretch;
+  margin-bottom: 10px;
 }
 
 .section .box {
   background-color: var(--white);
   border: var(--grey) solid 1px;
+  margin: 16px 0;
+  width: 425px;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-1 {
+  flex-direction: row;
+}
+
+.section-2 {
+  flex-wrap: wrap;
 }
 
 /* ====================================
